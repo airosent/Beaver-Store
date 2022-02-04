@@ -1,0 +1,191 @@
+body {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(175, 93, 0);
+}
+
+header {
+  padding: 20px;
+  color: #111;
+}
+
+main {
+  padding: 20px;
+  color: #111;
+
+}
+
+table{
+  width: 400px;
+  height: 200px;
+  border-collapse: collapse;
+  border: 4px black;
+  background-color: darkgray;
+  caption-side: top;
+  empty-cells: show;
+  table-layout: auto;
+  width: 100%;
+}
+caption {
+  color: black;
+  padding: 5px;
+  border: 2px black;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 125%;
+  background-color: orange;
+  font-weight: bold;
+}
+tr th {
+  color: #666;
+  padding-inline: 5px;
+}
+tr td {
+  color: black;
+  padding-inline: 5px;
+}
+
+thead {
+  background-color: orange;
+}
+tbody tr:nth-child(odd) {
+  background-color: rgb(155, 155, 155);
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(180, 180, 180);
+}
+
+fieldset {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+
+}
+legend{
+  border: 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orange;
+  color: black;
+  padding:5px 10px;
+
+}
+label {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding:0%;
+}
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0%;
+  margin: 25px 5px 20px 20px;
+  color: black;
+  background-color: rgb(255, 167, 66);
+
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: black;
+}
+h3 {
+  font-size: 20px;
+  color:black
+}
+h4 {
+  font-size: 12px;
+}
+p {
+  font-size: 16px;
+}
+
+.Logo {
+  width: 12px;
+  height: 16px;
+}
+.OrderPage {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  width: 75px;
+  pointer-events: none;
+}
+.App-article {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  caption-side: top;
+  empty-cells: show;
+  table-layout: auto;
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: orange;
+  height: 240px;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+}
+
+.App-link {
+  color: #ffee00;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
